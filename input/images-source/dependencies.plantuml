@@ -30,7 +30,7 @@ rectangle "**[[index.html CH EMR]]**\nEmergency Record" as chemr #White;line:Gre
 
 ' Column 4 (CH Term / CH EMED — vertically aligned)
 rectangle "**[[http://fhir.ch/ig/ch-term/index.html CH Term]]**\nterminology" as chterm #White;line:Red;line.bold;text:Black
-rectangle "**[[http://fhir.ch/ig/ch-emed/index.html CH EMED]]**\neMedikation profiles" as chemed #White;line:Purple;line.bold;text:Black
+rectangle "**[[http://fhir.ch/ig/ch-emed/index.html CH EMED]]**\neMedication profiles" as chemed #White;line:Purple;line.bold;text:Black
 
 ' Horizontal layout per row
 L1 -[hidden]right- SP_R1C2

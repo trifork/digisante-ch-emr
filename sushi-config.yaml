@@ -3,15 +3,15 @@ canonical: http://fhir.ch/ig/ch-emr
 name: CH_EMR
 title: "CH EMR (R4)"
 description: FHIR Implementation Guide for the Swiss Electronic Emergency Record
-status: draft
+status: active
 license: CC0-1.0
 copyright: CC0-1.0
 jurisdiction: urn:iso:std:iso:3166#CHE
-date: 2025-06-05
-version: 0.1.0 # 1.2.2 published in May 2025
+date: 2026-06-12
+version: 1.0.0-ballot
 fhirVersion: 4.0.1
-copyrightYear: 2024+
-releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+copyrightYear: 2026+
+releaseLabel: ballot # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 publisher:
   name: HL7 Switzerland
 contact:
@@ -26,10 +26,10 @@ dependencies:
     version: 7.1.0
   ch.fhir.ig.ch-core:
     uri: http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core
-    version: 6.0.0
+    version: 7.0.0-ballot
   ch.fhir.ig.ch-term:
     uri: http://fhir.ch/ig/ch-term/ImplementationGuide/ch.fhir.ig.ch-term
-    version: 3.3.0
+    version: 3.4.x
   ch.fhir.ig.ch-ips:
     uri: http://fhir.ch/ig/ch-ips/ImplementationGuide/ch.fhir.ig.ch-ips
     version: 2.0.0
